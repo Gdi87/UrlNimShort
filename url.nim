@@ -1,5 +1,8 @@
-# nim url shortening service
+
+# nim url short servce
+
 import jester, asyncdispatch, htmlgen, json, os, strutils, strformat, db_sqlite
+
 # hostname can be something configurable "http://ni.m:5000"
 let hostname = "localhost:5000"
 var theDb : DbConn
